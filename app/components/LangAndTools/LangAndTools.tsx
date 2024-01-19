@@ -3,11 +3,10 @@
 import React from 'react'
 import { motion } from 'framer-motion'
 import styles from './langandtools.module.css'
+import { heads } from '@/utils/items'
+import { subheads } from '@/utils/items'
 
 const LangAndTools = () => {
-
-  const heads = ['Java','HTML','CSS','JavaScript','TypeScript','Python','C++','Databases','Other tools']
-  const subheads = [[''],[''],[''],['React.js', 'Node.js', 'Express.js', 'Next.js'],[''],['Pandas', 'Numpy'],[''],['MySQL', 'MongoDB'],['Git','Github','Figma']];
 
   return (
     <div>
@@ -31,6 +30,7 @@ const LangAndTools = () => {
     <div className={styles.heads}>
       {heads?.map((head, index) => (      
       <motion.div
+      key={index}
       className={styles.heads}
       initial={{
         opacity: 0,
@@ -45,8 +45,8 @@ const LangAndTools = () => {
       }}
       viewport={{ once: false }}
     >
-        <select title={head} className={styles.slct}>
-          <option>{head}</option>
+        <select title={head} className={styles.slct} key={index}>
+          <option key={index}>{head}</option>
           {subheads[index]?.map((subhead, index) => (
               subhead !== '' && <option key={index} className={styles.opts} disabled>{subhead}</option>
           ))}

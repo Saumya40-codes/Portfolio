@@ -3,6 +3,7 @@ import Typing from './components/Typing/Typing'
 import Gif from './components/Gif/Gif'
 import About from './components/About/About'
 import LangAndTools from './components/LangAndTools/LangAndTools'
+import Projects from './components/Projects/Projects'
 
 export default function Home() {
 
@@ -13,6 +14,7 @@ export default function Home() {
       <Gif />
       <About />
       <LangAndTools />
+      <Projects />
     </main>
   )
 }

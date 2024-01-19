@@ -11,6 +11,8 @@
     margin-right: 10px;
     position: fixed;
     border: 1px solid #d5d5d5;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
     border-radius: 15px;
     top: 0; 
     left: 0; 
@@ -30,6 +32,7 @@
     backdrop-filter: blur(8px);
     -webkit-backdrop-filter: blur(8px);
     /* border: 1px solid #cccccc; */
+    border-radius: 15px;
     padding:6px 6px 5px 8px;
     flex-grow: 1;
     cursor: pointer;
