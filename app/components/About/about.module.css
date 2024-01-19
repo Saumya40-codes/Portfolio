@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Salsa&display=swap');
+
+.about{
+    margin-top: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+
+.about span{
+    font-size: 48px;
+    font-family: 'Salsa', cursive;
+    font-weight: bold;
+    text-align: center;
+    color: #d5d5d5;;
+    transition: all 0.3s ease-in-out;
+    border-radius: 0.5px;
+}
+
+.wrds{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes textGradient {
+    0% {
+      background-position: 0% 25%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+.wrds h3{
+    width: 365px;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 21px;
+    font-family: 'Caveat', cursive;
+    background: linear-gradient(to right, #d5d5d5, #686565, #d5d5d5);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    margin-bottom: 40px;
+    animation: textGradient 3s linear infinite;
+    background-size: 200% 100%;
+    line-height: 1.5;
+}
+
+.wrds h3 a {
+    background: linear-gradient(to right, #d5d5d5, #615e5e, #d5d5d5);
+    -webkit-background-clip: text;
+    font-weight: bold;
+    background-clip: text;
+    color: transparent;
+    animation: inherit; 
+    background-size: 200% 100%;
+    text-decoration: none; 
+    border-bottom: 1px solid transparent; 
+    transition: border-bottom-color 0.3s ease; 
+  }
+  
+  .wrds h3 a:hover {
+    border-bottom-color: currentColor; 
+    border-bottom: 1px dotted #d5d5d5;
+  }
+
+  @media screen and (max-width: 375px){
+    .about span{
+        font-size: 35px;
+    }
+    .wrds h3{
+        width: 314px;
+        font-size: 15px;
+    }
+}
+
+  @media screen and (min-width: 700px){
+    .about span{
+        font-size: 60px;
+    }
+    .wrds h3{
+        width: 880px;
+        font-size: 40px;
+    }
+}
+
