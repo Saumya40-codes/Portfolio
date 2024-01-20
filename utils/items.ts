@@ -19,6 +19,14 @@ export const proj_det = [
         link:'https://github.com/Saumya40-codes/Quidditch-Realm',
     },
     {
+        name:'BlogNest',
+        descp:'A Blogging site.',
+        features: 
+        'Effortless sign-up and login with Firebase authentication. Easily create and publish personalized blog posts on BlogNest. Explore, like, and comment on blog posts for a vibrant community experience. Customizable reading modes, social sharing, search functionality, tagging, and bookmarking enhance user experience and efficiency on BlogNest',
+        tech:['React.js', 'Firebase', 'Node.js', 'Express.js', 'MySQL'],
+        link:'https://github.com/Saumya40-codes/BlogNest',
+    },
+    {
         name:'Doodler',
         descp:'Chat and draw in real-time all together.',
         features:
@@ -26,12 +34,4 @@ export const proj_det = [
         tech:['Typescript', 'Next.js', 'Node.js', 'MongoDB', 'Socket.io'],
         link:'https://github.com/Saumya40-codes/Doodler',
     },
-    {
-        name:'BlogNest',
-        descp:'A Blogging site.',
-        features: 
-        'Effortless sign-up and login with Firebase authentication. Easily create and publish personalized blog posts on BlogNest. Explore, like, and comment on blog posts for a vibrant community experience. Customizable reading modes, social sharing, search functionality, tagging, and bookmarking enhance user experience and efficiency on BlogNest',
-        tech:['React.js', 'Firebase', 'Node.js', 'Express.js', 'MySQL'],
-        link:'https://github.com/Saumya40-codes/BlogNest',
-    }
 ]
