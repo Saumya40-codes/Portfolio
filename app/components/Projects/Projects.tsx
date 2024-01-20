@@ -59,7 +59,14 @@ const Projects = () => {
                 </ul>
               </span>
 
+              {index === 1 || index === 2 ? (
+                <div className={styles.rule}>
+                <hr />
+                </div>
+                )
+              :(
               <hr />
+              )}
 
               <ul className={styles.techstack}>
                 {proj.tech.map((lang, index) => {
@@ -70,7 +77,14 @@ const Projects = () => {
           </motion.div>
           );
         })}
+
+        <span className={styles.more}>
+          <h2>Find out more</h2>
+          <a href='https://github.com/Saumya40-codes?tab=repositories' target='__blank'>here!</a>
+        </span>
       </div>
+
+      <hr />
     </div>
   );
 };

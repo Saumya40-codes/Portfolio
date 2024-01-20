@@ -2,12 +2,18 @@
     margin-top: 65px;
 }
 
-.projsec h2{
+.projsec h2, .more {
     color: #d5d5d5;
     font-weight: bold;
     text-align: center;
     font-size: 38px;
     margin-bottom: 40px;
+}
+
+.more a{
+    background: linear-gradient(to right, #f32170, #ff6b08,#cf23cf, #eedd44);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
 }
 
 .projwrapper{
@@ -84,12 +90,11 @@
 
 @media screen and (min-width: 1270px) {
     .projwrapper{
-        margin: 0;
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 2fr 2fr;
         justify-content: center;
         place-items: center;
-        margin:10px 50px;
+        margin:0px 50px;
     }
 
     .projwrapper h2{
@@ -103,4 +108,12 @@
     .proj{
         width: 669px;
     }
+
+    .rule{
+        margin-top: 40px;
+    }
 }
+
+.projsec hr{
+    margin:20px 10px;
+} 
