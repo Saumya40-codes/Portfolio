@@ -1,0 +1,67 @@
+.foot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.made{
+    margin: 20px;
+    color:#b3b3b3;
+    font-size: 30px;
+}
+
+.messName{
+    margin: 0% 5px 0px 5px;
+    color:#b3b3b3;
+    font-size: 30px;
+}
+
+.input{
+    width: 200px;
+    text-align: center;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #b3b3b3;
+    font-size: 20px;
+}
+
+.mess{
+    font-size: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    width: 200px;
+    height: 80px;
+}
+
+.btn{
+    margin-top: 20px;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #b3b3b3;
+    background: rgba(53, 52, 52, 0.25);
+    color: white;
+    font-size: 20px;
+}
+
+.btn:hover{
+    background: rgba(53, 52, 52, 0.5);
+}
+
+@media screen and (min-width: 600px) {
+    .input{
+        width: 400px;
+    }
+
+    .mess{
+        width: 400px;
+    }
+}
+
+.mainLang{
+    background: linear-gradient(to right, #2198f3, #ffffff);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
