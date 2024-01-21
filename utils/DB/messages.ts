@@ -2,15 +2,15 @@ import mongoose from "mongoose";
 
 const MessageSchema = new mongoose.Schema({
     user: {
-        type: "string",
+        type: String,
         required: true
     },
     message: {
-        type: "string",
+        type: String,
         required: true
     }
 });
 
-const Message = mongoose.model("Message", MessageSchema);
+const Message = mongoose.models.Message || mongoose.model("Message", MessageSchema);
 
 export default Message;

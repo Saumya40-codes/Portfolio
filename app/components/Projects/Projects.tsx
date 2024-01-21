@@ -80,7 +80,22 @@ const Projects = () => {
 
         <span className={styles.more}>
           <h2>Find out more</h2>
+          <motion.div
+      initial={{
+        opacity: 0,
+        x: 0,
+      }}
+      whileInView={{
+        opacity: 1,
+        x: 0, 
+        transition: {
+          duration: 1
+        }
+      }}
+      viewport={{ once: false }}
+    >
           <a href='https://github.com/Saumya40-codes?tab=repositories' target='__blank'>here!</a>
+        </motion.div>
         </span>
       </div>
 

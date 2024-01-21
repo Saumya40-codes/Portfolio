@@ -5,8 +5,8 @@ import { NextResponse } from "next/server";
 export const POST = async(req: Request, res: Response) =>{
     try{
         await connectToDB();
-        const { user, message } = await req.json();
-        const newMessage = new Message({ user, message });
+        const { name, message } = await req.json();
+        const newMessage = new Message({ user:name, message });
         await newMessage.save();
         return NextResponse.json({ status: 200, message: "Message sent"});
     }

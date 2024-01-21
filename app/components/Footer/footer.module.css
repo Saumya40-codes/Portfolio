@@ -1,4 +1,11 @@
-.foot{
+.footMain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.foot, .tp{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -7,24 +14,43 @@
 }
 
 .made{
+    text-align: center;
     margin: 20px;
     color:#b3b3b3;
     font-size: 30px;
 }
 
+.error{
+    color: red;
+    font-size: 20px;
+    margin: 10px 0px;
+    font-family: 'Salsa', cursive;
+}
+
+.con{
+    color:#b3b3b3;
+    font-size: 20px;
+    text-align: center;
+}
+
+.siteSec{
+    margin: 20px 0px;
+}
+
 .messName{
-    margin: 0% 5px 0px 5px;
+    margin: 0px 5px 10px 5px;
     color:#b3b3b3;
     font-size: 30px;
 }
 
 .input{
     width: 200px;
-    text-align: center;
     height: 40px;
     border-radius: 5px;
     border: 1px solid #b3b3b3;
     font-size: 20px;
+    margin-top: 20px;
+    padding-left: 10px;
 }
 
 .mess{
@@ -33,10 +59,11 @@
     border-radius: 5px;
     width: 200px;
     height: 80px;
+    padding: 10px 0px 0px 10px;
 }
 
 .btn{
-    margin-top: 20px;
+    margin: 20px 0px 40px 0px;
     width: 100px;
     height: 40px;
     border-radius: 5px;
@@ -50,18 +77,70 @@
     background: rgba(53, 52, 52, 0.5);
 }
 
-@media screen and (min-width: 600px) {
+.site{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    gap:25px;
+}
+
+.link{
+    position: relative;
+    text-decoration: none;
+    color: #b3b3b3;
+    font-size: 18px;
+    margin-bottom: 45px;
+    transition: all 0.3s ease-in-out;
+}
+
+.link:hover{
+    text-decoration: underline #4fd1c5;
+}
+
+.img{
+    width: 20px;
+    height: 20px;
+    border-radius: 40%;
+    margin: 10px 15px;
+    margin-bottom: 0px;
+}
+.mainLang{
+    background: linear-gradient(to right, #2198f3, #ffffff);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+@media screen and (min-width: 840px) {
     .input{
+        margin-top: 20px;
         width: 400px;
     }
 
     .mess{
         width: 400px;
+        height: 100px;
     }
-}
 
-.mainLang{
-    background: linear-gradient(to right, #2198f3, #ffffff);
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
+    .footMain{
+        justify-content: space-evenly;
+        flex-direction: row;
+    }
+
+    .con{
+        font-size: 20px;
+    }
+
+    .site{
+        margin-bottom: 65px;
+        column-gap: 120px;
+    }
+
+    .link{
+        font-size: 20px;
+    }
+
+    .img{
+        width: 40px;
+        height: 40px;
+    }
 }

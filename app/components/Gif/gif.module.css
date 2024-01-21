@@ -37,8 +37,9 @@
       object-fit: fill;
       margin-top: 60px;
       width: 100%; 
-      max-width: 998px; 
-      height: 730px;
+      max-width: 1008px; 
+      height: 570px;
       border-radius: 14px;
+      margin-bottom: 55px;
 }
 }
