@@ -48,7 +48,7 @@ const LangAndTools = () => {
         <select title={head} className={styles.slct} key={index}>
           <option key={index}>{head}</option>
           {subheads[index]?.map((subhead, index) => (
-              subhead !== '' && <option key={index} className={styles.opts} disabled>{subhead}</option>
+              subhead !== '' && <option key={index} className={styles.opts}>{subhead}</option>
           ))}
         </select>
         </motion.div>
