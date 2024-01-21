@@ -6,7 +6,7 @@ import {motion} from 'framer-motion';
 
 const Projects = () => {
   return (
-    <div className={styles.projsec}>
+    <div className={styles.projsec} id='Projects'>
     <motion.div
       initial={{
         opacity: 0,

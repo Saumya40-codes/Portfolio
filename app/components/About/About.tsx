@@ -6,7 +6,7 @@ import styles from './about.module.css'
 
 const About = () => {
   return (
-    <div>
+    <div id='About me'>
     <motion.div
       className={styles.about}
       initial={{

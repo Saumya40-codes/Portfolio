@@ -9,7 +9,7 @@ import { subheads } from '@/utils/items'
 const LangAndTools = () => {
 
   return (
-    <div>
+    <div id='Languages and Tools'>
         <motion.div
         className= {styles.headng}
       initial={{

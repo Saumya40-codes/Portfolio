@@ -61,7 +61,7 @@ const Footer = () => {
  
   return (
     <>
-    <div className={styles.tp}>
+    <div className={styles.tp} id='Contact'>
     <span className={styles.made}>
       Made with <span className={styles.mainLang}>Next.js</span> and <span className={styles.mainLang}>Vanilla CSS</span>
     </span>
