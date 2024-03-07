@@ -6,7 +6,7 @@ export const items = [
 ]
 
 export const heads = ['Java','HTML','CSS','JavaScript','TypeScript','Python','C++','Databases','Other tools']
-export const subheads = [[''],[''],[''],['React.js', 'Node.js', 'Express.js', 'Next.js'],[''],['Pandas', 'Numpy','Flask','Django'],[''],['MySQL', 'MongoDB'],['Git','Github','Figma']];
+export const subheads = [[''],[''],['TailwindCSS'],['React.js', 'Node.js', 'Express.js', 'Next.js', 'Jest'],[''],['Pandas', 'Numpy','Flask','Django'],[''],['MySQL', 'MongoDB', 'Redis'],['Git','Github','Figma', 'Prisma']];
 
 
 export const proj_det = [
@@ -30,7 +30,7 @@ export const proj_det = [
         name:'Doodler',
         descp:'Chat and draw in real-time all together.',
         features:
-        'Users can create personalized rooms. Join friends’ rooms using uniquely generated roomIDs with nanoid. Seamless real-time chat functionality within each room. Users can draw together in real-time. Users can create private rooms for the restricted access',
+        'Users can create personalized rooms. Join friends’ rooms using uniquely generated roomIDs. Seamless real-time chat functionality within each room. Users can draw together in real-time. Users can create private rooms for the restricted access',
         tech:['Typescript', 'Next.js', 'Node.js', 'MongoDB', 'Socket.io'],
         link:'https://github.com/Saumya40-codes/Doodler',
     },
