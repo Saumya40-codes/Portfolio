@@ -12,18 +12,18 @@ const Typing = () => {
       <TypeAnimation
       sequence={[
         `${text} `, 
-        1000,
+        2000,
         `${text}Full Stack Developer👨‍💻`,
-        1000,
+        2000,
         `${text}Backend 💻`,
-        1000,
+        2000,
         `${text}Leetcoder 🤓`,
-        1000,
+        2000,
         `${text}Engineer 🧑‍🔧`,
-        1000,
+        2000,
       ]}
       wrapper="span"
-      speed={2}
+      speed={1}
       deletionSpeed={1}
       repeat={Infinity}
     />

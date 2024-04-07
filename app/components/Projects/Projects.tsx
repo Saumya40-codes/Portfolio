@@ -77,8 +77,8 @@ const Projects = () => {
           </motion.div>
           );
         })}
-
-        <span className={styles.more}>
+      </div>
+      <div className={styles.more}>
           <h2>Find out more</h2>
           <motion.div
       initial={{
@@ -96,9 +96,7 @@ const Projects = () => {
     >
           <a href='https://github.com/Saumya40-codes?tab=repositories' target='__blank'>here!</a>
         </motion.div>
-        </span>
-      </div>
-
+        </div>
       <hr />
     </div>
   );

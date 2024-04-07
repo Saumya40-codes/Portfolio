@@ -19,12 +19,12 @@ export const proj_det = [
         link:'https://github.com/Saumya40-codes/Quidditch-Realm',
     },
     {
-        name:'BlogNest',
-        descp:'A Blogging site.',
+        name:'Codev',
+        descp:'A collaborative rich text editor for the developers around',
         features: 
-        'Effortless sign-up and login with Firebase authentication. Easily create and publish personalized blog posts on BlogNest. Explore, like, and comment on blog posts for a vibrant community experience. Customizable reading modes, social sharing, search functionality, tagging, and bookmarking enhance user experience and efficiency on BlogNest',
-        tech:['React.js', 'Firebase', 'Node.js', 'Express.js', 'MySQL'],
-        link:'https://github.com/Saumya40-codes/BlogNest',
+        'Multiple developers can work on the same project simultaneously, with changes reflected instantly. Create and manage projects with ease, including the ability to create multiple files within projects.  Invite other developers to join your projects and collaborate effortlessly. See real-time updates on who has joined or left the project and who is currently editing with the help of redis and sockets',
+        tech:['Typescript', 'Next.js', 'Socket.io', 'MySQL', 'Prisma', 'Redis', 'Redux'],
+        link:'https://github.com/Saumya40-codes/CoDev'
     },
     {
         name:'Doodler',
@@ -34,6 +34,14 @@ export const proj_det = [
         tech:['Typescript', 'Next.js', 'Node.js', 'MongoDB', 'Socket.io'],
         link:'https://github.com/Saumya40-codes/Doodler',
     },
+    {
+        name:'BlogNest',
+        descp:'A Blogging site.',
+        features: 
+        'Effortless sign-up and login with Firebase authentication. Easily create and publish personalized blog posts on BlogNest. Explore, like, and comment on blog posts for a vibrant community experience. Customizable reading modes, social sharing, search functionality, tagging, and bookmarking enhance user experience and efficiency on BlogNest',
+        tech:['React.js', 'Firebase', 'Node.js', 'Express.js', 'MySQL'],
+        link:'https://github.com/Saumya40-codes/BlogNest',
+    }
 ]
 
 

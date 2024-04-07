@@ -20,7 +20,7 @@ const About = () => {
           duration: 2 
         }
       }}
-      viewport={{ once: false }}
+      viewport={{ once: true }}
     >
         <span className={styles.txt}>
         About me

@@ -121,3 +121,16 @@
 .projsec hr{
     margin:20px 10px;
 } 
+
+.more{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 375px){
+    .techstack{
+        margin: 0 20px;
+    }
+}
