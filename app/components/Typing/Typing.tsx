@@ -17,14 +17,12 @@ const Typing = () => {
         2000,
         `${text}Backend 💻`,
         2000,
-        `${text}Leetcoder 🤓`,
-        2000,
         `${text}Engineer 🧑‍🔧`,
         2000,
       ]}
       wrapper="span"
-      speed={1}
-      deletionSpeed={1}
+      speed={2}
+      deletionSpeed={2}
       repeat={Infinity}
     />
       </h2>

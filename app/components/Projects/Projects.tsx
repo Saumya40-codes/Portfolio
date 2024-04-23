@@ -2,46 +2,18 @@
 
 import styles from './projects.module.css';
 import { proj_det } from '@/utils/items';
-import {motion} from 'framer-motion';
 
 const Projects = () => {
   return (
     <div className={styles.projsec} id='Projects'>
-    <motion.div
-      initial={{
-        opacity: 0,
-        x: 0,
-      }}
-      whileInView={{
-        opacity: 1,
-        x: 0, 
-        transition: {
-          duration: 2 
-        }
-      }}
-      viewport={{ once: false }}
-    >
+    <div>
       <h2>Projects</h2>
-    </motion.div>
+    </div>
 
       <div className={styles.projwrapper}>
         {proj_det.map((proj, index) => {
           return (
-            <motion.div
-            key={index}
-      initial={{
-        opacity: 0,
-        y: 50,
-      }}
-      whileInView={{
-        opacity: 1,
-        y: 0, 
-        transition: {
-          duration: 1
-        }
-      }}
-      viewport={{ once: false }}
-    >
+            <div key={index} >
             <div className={styles.proj} key={index}>
               <div className={styles.projHead} key={index}>
                 <h2>{proj.name}</h2>
@@ -74,28 +46,15 @@ const Projects = () => {
                 })}
               </ul>
             </div>
-          </motion.div>
+          </div>
           );
         })}
       </div>
       <div className={styles.more}>
           <h2>Find out more</h2>
-          <motion.div
-      initial={{
-        opacity: 0,
-        x: 0,
-      }}
-      whileInView={{
-        opacity: 1,
-        x: 0, 
-        transition: {
-          duration: 1
-        }
-      }}
-      viewport={{ once: false }}
-    >
+          <div>
           <a href='https://github.com/Saumya40-codes?tab=repositories' target='__blank'>here!</a>
-        </motion.div>
+        </div>
         </div>
       <hr />
     </div>

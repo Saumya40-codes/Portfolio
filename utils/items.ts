@@ -6,7 +6,7 @@ export const items = [
 ]
 
 export const heads = ['Java','HTML','CSS','JavaScript','TypeScript','Python','C++','Databases','Other tools']
-export const subheads = [[''],[''],['TailwindCSS'],['React.js', 'Node.js', 'Express.js', 'Next.js', 'Jest'],[''],['Pandas', 'Numpy','Flask','Django'],[''],['MySQL', 'MongoDB', 'Redis'],['Git','Github','Figma', 'Prisma']];
+export const subheads = [[''],[''],['TailwindCSS'],['React.js', 'Node.js', 'Express.js', 'Next.js', 'Jest'],[''],['Pandas', 'Numpy','Flask','Django'],[''],['MySQL', 'MongoDB', 'Redis'],['Git','Github','Figma', 'Prisma', 'Docker']];
 
 
 export const proj_det = [
