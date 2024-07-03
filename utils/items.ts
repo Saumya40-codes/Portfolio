@@ -5,8 +5,8 @@ export const items = [
     'Contact',
 ]
 
-export const heads = ['Java','HTML','CSS','JavaScript','TypeScript','Python','C++','Databases','Other tools']
-export const subheads = [[''],[''],['TailwindCSS'],['React.js', 'Node.js', 'Express.js', 'Next.js', 'Jest'],[''],['Pandas', 'Numpy','Flask','Django'],[''],['MySQL', 'MongoDB', 'Redis'],['Git','Github','Figma', 'Prisma', 'Docker']];
+export const heads = ['Java','HTML','CSS','JavaScript','TypeScript','Go','Python','C++','Databases','Other tools']
+export const subheads = [[''],[''],['TailwindCSS'],['React.js', 'Node.js', 'Express.js', 'Next.js', 'Jest'],[''],[''],['Pandas', 'Numpy','Flask','Django'],[''],['MySQL', 'MongoDB', 'Redis'],['Git','Github','Figma', 'Prisma', 'Docker', 'RabbitMQ']];
 
 
 export const proj_det = [
@@ -33,6 +33,12 @@ export const proj_det = [
         'Users can create personalized rooms. Join friends’ rooms using uniquely generated roomIDs. Seamless real-time chat functionality within each room. Users can draw together in real-time. Users can create private rooms for the restricted access',
         tech:['Typescript', 'Next.js', 'Node.js', 'MongoDB', 'Socket.io'],
         link:'https://github.com/Saumya40-codes/Doodler',
+    },
+    {
+      name:'Kafka like pubsub from scratch',
+      descp:'A kafka like functionality pubsub written from scratch in golang',
+      features:
+      'Create a broker, producer, consumer and topics just like how it is in Kafka. Create partitions within a topic. Automatic load-balancing among the consumers'
     },
     {
         name:'BlogNest',
