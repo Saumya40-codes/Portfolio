@@ -38,7 +38,9 @@ export const proj_det = [
       name:'Kafka like pubsub from scratch',
       descp:'A kafka like functionality pubsub written from scratch in golang',
       features:
-      'Create a broker, producer, consumer and topics just like how it is in Kafka. Create partitions within a topic. Automatic load-balancing among the consumers'
+      'Create a broker, producer, consumer and topics just like how it is in Kafka. Create partitions within a topic. Automatic load-balancing among the consumers',
+      tech:['Go'],
+      link:'https://github.com/Saumya40-codes/pubsub',
     },
     {
         name:'BlogNest',
