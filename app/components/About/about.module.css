@@ -73,11 +73,11 @@
 
   @media screen and (max-width: 375px){
     .about span{
-        font-size: 32px;
+        font-size: 36px;
     }
     .wrds h3{
         width: 314px;
-        font-size: 13px;
+        font-size: 16px;
     }
 }
 
