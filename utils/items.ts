@@ -8,50 +8,75 @@ export const items = [
 export const heads = ['Java','HTML','CSS','JavaScript','TypeScript','Go','Python','C++','Databases','Other tools']
 export const subheads = [[''],[''],['TailwindCSS'],['React.js', 'Node.js', 'Express.js', 'Next.js', 'Jest'],[''],[''],['Pandas', 'Numpy','Flask','Django'],[''],['MySQL', 'MongoDB', 'Redis'],['Git','Github','Figma', 'Prisma', 'Docker', 'RabbitMQ']];
 
-
 export const proj_det = [
     {
-        name:'Quidditch Realm',
-        descp:'A full-stack harry potter sport (Quidditch) theme-based website.',
-        features:
-        'Admin and user-based jwt authentication. Stay updated with the latest match results notification and its relavant mails. User registration for quidditch events. Stripe payment gateway integration for the same. Google Calendar integration for marking event reminders. Nodemailer for sending emails on the subscription of certain events',
-        tech:['React.js', 'Node.js', 'Express.js', 'MongoDB','Redux', 'Stripe', 'Nodemailer', 'Google Calendar API'],
-        link:'https://github.com/Saumya40-codes/Quidditch-Realm',
+        name: 'LazyAI',
+        descp: 'Go-based TUI application for AI-assisted clipboard management',
+        achievements: [
+            'Developed a Terminal User Interface (TUI) application in Go for seamless AI integration with clipboard',
+            'Implemented automatic text processing and instant AI responses, enhancing user productivity',
+            'Created an intuitive dashboard for managing interaction history, AI models, and custom prompts',
+            'Designed flexible configuration options including detached mode and default prompt settings'
+        ],
+        tech: ['Go', 'Terminal User Interface (TUI)', 'AI Integration', 'Clipboard Management'],
+        link: 'https://github.com/yourusername/LazyAI'  // Replace with the actual GitHub link
     },
     {
-        name:'Codev',
-        descp:'A collaborative rich text editor for the developers around',
-        features: 
-        'Multiple developers can work on the same project simultaneously, with changes reflected instantly. Create and manage projects with ease, including the ability to create multiple files within projects.  Invite other developers to join your projects and collaborate effortlessly. See real-time updates on who has joined or left the project and who is currently editing with the help of redis and sockets',
-        tech:['Typescript', 'Next.js', 'Socket.io', 'MySQL', 'Prisma', 'Redis', 'Redux'],
-        link:'https://github.com/Saumya40-codes/CoDev'
+        name: 'Codev',
+        descp: 'Collaborative rich text editor for developers',
+        achievements: [
+            'Developed a real-time collaborative coding platform enabling multiple developers to work on projects simultaneously',
+            'Implemented project management features including file creation and developer invitations',
+            'Integrated Redis and Socket.io for real-time updates on user activity and project modifications'
+        ],
+        tech: ['Typescript', 'Next.js', 'Socket.io', 'MySQL', 'Prisma', 'Redis', 'Redux'],
+        link: 'https://github.com/Saumya40-codes/CoDev'
     },
     {
-        name:'Doodler',
-        descp:'Chat and draw in real-time all together.',
-        features:
-        'Users can create personalized rooms. Join friends’ rooms using uniquely generated roomIDs. Seamless real-time chat functionality within each room. Users can draw together in real-time. Users can create private rooms for the restricted access',
-        tech:['Typescript', 'Next.js', 'Node.js', 'MongoDB', 'Socket.io'],
-        link:'https://github.com/Saumya40-codes/Doodler',
+        name: 'Quidditch Realm',
+        descp: 'Full-stack Harry Potter themed sports website',
+        achievements: [
+            'Implemented JWT-based authentication for admin and user access',
+            'Integrated Stripe payment gateway for event registrations',
+            'Enhanced user engagement through Google Calendar API integration and automated Nodemailer notifications'
+        ],
+        tech: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'Redux', 'Stripe', 'Nodemailer', 'Google Calendar API'],
+        link: 'https://github.com/Saumya40-codes/Quidditch-Realm'
     },
     {
-      name:'Kafka like pubsub from scratch',
-      descp:'A kafka like functionality pubsub written from scratch in golang',
-      features:
-      'Create a broker, producer, consumer and topics just like how it is in Kafka. Create partitions within a topic. Automatic load-balancing among the consumers',
-      tech:['Go'],
-      link:'https://github.com/Saumya40-codes/pubsub',
+        name: 'Doodler',
+        descp: 'Real-time collaborative drawing and chat platform',
+        achievements: [
+            'Engineered a platform for real-time collaborative drawing and chat functionality',
+            'Implemented a room-based system with unique identifiers for streamlined user access',
+            'Designed privacy controls allowing users to create invitation-only rooms'
+        ],
+        tech: ['Typescript', 'Next.js', 'Node.js', 'MongoDB', 'Socket.io'],
+        link: 'https://github.com/Saumya40-codes/Doodler'
     },
     {
-        name:'BlogNest',
-        descp:'A Blogging site.',
-        features: 
-        'Effortless sign-up and login with Firebase authentication. Easily create and publish personalized blog posts on BlogNest. Explore, like, and comment on blog posts for a vibrant community experience. Customizable reading modes, social sharing, search functionality, tagging, and bookmarking enhance user experience and efficiency on BlogNest',
-        tech:['React.js', 'Firebase', 'Node.js', 'Express.js', 'MySQL'],
-        link:'https://github.com/Saumya40-codes/BlogNest',
+        name: 'Kafka-like Pub/Sub System',
+        descp: 'Publish-subscribe messaging system built from scratch in Go',
+        achievements: [
+            'Developed a Kafka-inspired publish-subscribe system with brokers, producers, consumers, and topics',
+            'Implemented partitioning within topics for improved scalability',
+            'Designed automatic load-balancing functionality among consumers'
+        ],
+        tech: ['Go'],
+        link: 'https://github.com/Saumya40-codes/pubsub'
+    },
+    {
+        name: 'BlogNest',
+        descp: 'Feature-rich blogging platform',
+        achievements: [
+            'Integrated Firebase authentication for secure user sign-up and login',
+            'Developed features for creating, publishing, and interacting with blog posts',
+            'Implemented advanced functionalities including customizable reading modes, social sharing, and content tagging'
+        ],
+        tech: ['React.js', 'Firebase', 'Node.js', 'Express.js', 'MySQL'],
+        link: 'https://github.com/Saumya40-codes/BlogNest'
     }
-]
-
+];
 
 export const sites = [
     {
