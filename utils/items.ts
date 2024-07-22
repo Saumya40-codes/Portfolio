@@ -24,7 +24,7 @@ export const proj_det = [
     {
         name: 'Codev',
         descp: 'Collaborative rich text editor for developers',
-        achievements: [
+        features: [
             'Developed a real-time collaborative coding platform enabling multiple developers to work on projects simultaneously',
             'Implemented project management features including file creation and developer invitations',
             'Integrated Redis and Socket.io for real-time updates on user activity and project modifications',
