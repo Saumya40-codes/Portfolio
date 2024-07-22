@@ -19,17 +19,18 @@ export const proj_det = [
             'Designed flexible configuration options including detached mode and default prompt settings'
         ],
         tech: ['Go', 'Terminal User Interface (TUI)', 'AI Integration', 'Clipboard Management'],
-        link: 'https://github.com/yourusername/LazyAI'  // Replace with the actual GitHub link
+        link: 'https://github.com/Codesmith28/lazyAi' 
     },
     {
         name: 'Codev',
         descp: 'Collaborative rich text editor for developers',
-        features: [
+        achievements: [
             'Developed a real-time collaborative coding platform enabling multiple developers to work on projects simultaneously',
             'Implemented project management features including file creation and developer invitations',
-            'Integrated Redis and Socket.io for real-time updates on user activity and project modifications'
+            'Integrated Redis and Socket.io for real-time updates on user activity and project modifications',
+            'Utilized Docker for creating isolated, reproducible development environments, enhancing project portability and consistency'
         ],
-        tech: ['Typescript', 'Next.js', 'Socket.io', 'MySQL', 'Prisma', 'Redis', 'Redux'],
+        tech: ['Typescript', 'Next.js', 'Socket.io', 'MySQL', 'Prisma', 'Redis', 'Redux', 'Docker'],
         link: 'https://github.com/Saumya40-codes/CoDev'
     },
     {
@@ -37,8 +38,9 @@ export const proj_det = [
         descp: 'Full-stack Harry Potter themed sports website',
         features: [
             'Implemented JWT-based authentication for admin and user access',
+            'Implemented event based notification on user subscription to a particular event',
             'Integrated Stripe payment gateway for event registrations',
-            'Enhanced user engagement through Google Calendar API integration and automated Nodemailer notifications'
+            'Enhanced user engagement through Google Calendar API integration and automated email notifications'
         ],
         tech: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'Redux', 'Stripe', 'Nodemailer', 'Google Calendar API'],
         link: 'https://github.com/Saumya40-codes/Quidditch-Realm'
