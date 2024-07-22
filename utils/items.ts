@@ -12,7 +12,7 @@ export const proj_det = [
     {
         name: 'LazyAI',
         descp: 'Go-based TUI application for AI-assisted clipboard management',
-        achievements: [
+        features: [
             'Developed a Terminal User Interface (TUI) application in Go for seamless AI integration with clipboard',
             'Implemented automatic text processing and instant AI responses, enhancing user productivity',
             'Created an intuitive dashboard for managing interaction history, AI models, and custom prompts',
@@ -24,7 +24,7 @@ export const proj_det = [
     {
         name: 'Codev',
         descp: 'Collaborative rich text editor for developers',
-        achievements: [
+        features: [
             'Developed a real-time collaborative coding platform enabling multiple developers to work on projects simultaneously',
             'Implemented project management features including file creation and developer invitations',
             'Integrated Redis and Socket.io for real-time updates on user activity and project modifications'
@@ -35,7 +35,7 @@ export const proj_det = [
     {
         name: 'Quidditch Realm',
         descp: 'Full-stack Harry Potter themed sports website',
-        achievements: [
+        features: [
             'Implemented JWT-based authentication for admin and user access',
             'Integrated Stripe payment gateway for event registrations',
             'Enhanced user engagement through Google Calendar API integration and automated Nodemailer notifications'
@@ -46,7 +46,7 @@ export const proj_det = [
     {
         name: 'Doodler',
         descp: 'Real-time collaborative drawing and chat platform',
-        achievements: [
+        features: [
             'Engineered a platform for real-time collaborative drawing and chat functionality',
             'Implemented a room-based system with unique identifiers for streamlined user access',
             'Designed privacy controls allowing users to create invitation-only rooms'
@@ -57,7 +57,7 @@ export const proj_det = [
     {
         name: 'Kafka-like Pub/Sub System',
         descp: 'Publish-subscribe messaging system built from scratch in Go',
-        achievements: [
+        features: [
             'Developed a Kafka-inspired publish-subscribe system with brokers, producers, consumers, and topics',
             'Implemented partitioning within topics for improved scalability',
             'Designed automatic load-balancing functionality among consumers'
@@ -68,7 +68,7 @@ export const proj_det = [
     {
         name: 'BlogNest',
         descp: 'Feature-rich blogging platform',
-        achievements: [
+        features: [
             'Integrated Firebase authentication for secure user sign-up and login',
             'Developed features for creating, publishing, and interacting with blog posts',
             'Implemented advanced functionalities including customizable reading modes, social sharing, and content tagging'
