@@ -25,7 +25,7 @@ const Projects = () => {
 
               <span>
                 <ul className={styles.features}>
-                  {proj.features.split('.').map((feature, index) => {
+                  {proj.features.map((feature, index) => {
                     return <li key={index}>{feature}</li>;
                   })}
                 </ul>
