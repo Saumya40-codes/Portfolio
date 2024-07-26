@@ -14,12 +14,9 @@ const About = () => {
 
     <div className={styles.wrds}>
       <h3 className={styles.descp}>
-      "Second-year undergraduate student enrolled at 
-      <a href="https://www.ahduni.edu.in/" target='__blank'> Ahmedabad University</a>, 
-      where I am pursuing a B.Tech degree in Computer Science and Engineering. 
-      My keen interest lies in exploring various technologies within the realm of computer science. 
-      I find joy in problem-solving and continuous learning.
-      I am always open to new opportunities and challenges."
+      "I build fullstack and backend applications. Over the past two years, I've worked with various technologies in this field, 
+       developing a strong foundation through projects and study of core concepts.
+       I like learning about distributed systems and automations, an area where I continue to expand my knowledge over the time."
       </h3>
     </div>
     </div>
